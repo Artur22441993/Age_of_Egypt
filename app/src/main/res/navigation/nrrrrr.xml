@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nrrrrr"
+    app:startDestination="@id/ybuut">
+
+    <fragment
+        android:id="@+id/ybuut"
+        android:name="com.aagee.oof.eegypt.yff.Yprooo"
+        android:label="fragment_ybuut"
+        tools:layout="@layout/fragment_ybuut" >
+        <action
+            android:id="@+id/action_ybuut_to_ybuuu"
+            app:destination="@id/ybuuu" />
+        <action
+            android:id="@+id/action_ybuut_to_oooooofff"
+            app:destination="@id/oooooofff" />
+    </fragment>
+    <fragment
+        android:id="@+id/ybuuu"
+        android:name="com.aagee.oof.eegypt.yff.Ybuuu"
+        android:label="fragment_ybuuu"
+        tools:layout="@layout/fragment_ybuuu" >
+        <action
+            android:id="@+id/action_ybuuu_to_ygem"
+            app:destination="@id/ygem" />
+        <action
+            android:id="@+id/action_ybuuu_to_pollll"
+            app:destination="@id/pollll" />
+    </fragment>
+    <fragment
+        android:id="@+id/ygem"
+        android:name="com.aagee.oof.eegypt.yff.Ygem"
+        android:label="fragment_ygem"
+        tools:layout="@layout/fragment_ygem" />
+    <activity
+        android:id="@+id/pollll"
+        android:name="com.aagee.oof.eegypt.Pollll"
+        android:label="Pollll" />
+    <activity
+        android:id="@+id/oooooofff"
+        android:name="com.aagee.oof.eegypt.Oooooofff"
+        android:label="Oooooofff" />
+</navigation>
